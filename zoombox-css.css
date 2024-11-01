@@ -1,0 +1,49 @@
+/* Zoomer */
+#zoom-box {
+	background: transparent url(zoom-panel.gif) no-repeat;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #222;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	width: 80px;
+	height: 50px;
+}
+
+#zoom-status {
+	position: absolute;
+	bottom: 5px;
+	line-height: 18px;
+	width: 80px;
+	text-align: center;
+}
+
+#zoom-in, #zoom-out {
+	position: absolute;
+	bottom: 5px;
+	width: 18px;	
+	height: 18px;
+	cursor: pointer;
+	background: no-repeat center center;
+}
+
+#zoom-out {
+	left: 7px;
+	background-image: url(zoom-dn.gif);
+}
+#zoom-in {
+	right: 7px;
+	background-image: url(zoom-up.gif);
+}
+#zoom-out:hover {
+	background-image: url(zoom-dn-hover.gif);
+}
+#zoom-in:hover {
+	background-image: url(zoom-up-hover.gif);
+}
+
+#zoom-link {
+	height: 24px;
+}
